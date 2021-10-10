@@ -1,6 +1,7 @@
 {
   "name": "@examples-query-react/mutations",
   "private": true,
+  "packageManager": "yarn@3.0.2",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -30,7 +31,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "prebuild": "rm -rf dist/"
+    "prebuild": "rm -rf dist/",
+    "newinstall": "yarn install --modules-folder ./directory_location"
   },
   "eslintConfig": {
     "extends": [
